@@ -12,8 +12,8 @@ class Product extends Component {
     render() { 
         return ( 
             <div className="product">
-                <img className="product-image" src={"/images/products/"+this.props.item.image} alt="product"></img>
-                {/* <img className="product-image" src={"https://TomNguyen-FSDI.github.io/organika/images/products/"+this.props.item.image} alt="random"></img> */}
+                {/* <img className="product-image" src={"/images/products/"+this.props.item.image} alt="product"></img> */}
+                <img className="product-image" src={"https://TomNguyen-FSDI.github.io/organika/images/products/"+this.props.item.image} alt="random"></img>
                 <label className="product-title">{this.props.item.title}</label>
                 <p className="unit_price">Unit Price: ${this.props.item.price.toFixed(2)}</p>
                 <QuantityPicker onValueChange={this.handleGetQuantity} quantityMinimum={this.props.item.minimum || 1}></QuantityPicker>

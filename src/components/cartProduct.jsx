@@ -8,7 +8,8 @@ class CartProduct extends Component {
         return ( 
             <div>
                 <div className="cart-sub-container">
-                    <img src={"/images/products/"+this.props.cartImg} alt="CartProduct"/>
+                    {/* <img src={"/images/products/"+this.props.cartImg} alt="CartProduct"/> */}
+                    <img src={"https://TomNguyen-FSDI.github.io/organika/images/products/"+this.props.cartImg} alt="CartProduct"/>
                     {this.handleHowMany()}
                     {/* <label className="product-title">{this.props.cartTitle}</label>
                     <p className="unit_price">Unit Price: ${this.props.cartPrice.toFixed(2)}</p>
