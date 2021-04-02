@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/organika/static/css/main.294bd761.chunk.css",
-    "main.js": "/organika/static/js/main.44c21070.chunk.js",
-    "main.js.map": "/organika/static/js/main.44c21070.chunk.js.map",
+    "main.js": "/organika/static/js/main.07cc0245.chunk.js",
+    "main.js.map": "/organika/static/js/main.07cc0245.chunk.js.map",
     "runtime-main.js": "/organika/static/js/runtime-main.79f3ee6d.js",
     "runtime-main.js.map": "/organika/static/js/runtime-main.79f3ee6d.js.map",
     "static/css/2.5be1633c.chunk.css": "/organika/static/css/2.5be1633c.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.5be1633c.chunk.css",
     "static/js/2.9f278586.chunk.js",
     "static/css/main.294bd761.chunk.css",
-    "static/js/main.44c21070.chunk.js"
+    "static/js/main.07cc0245.chunk.js"
   ]
 }
