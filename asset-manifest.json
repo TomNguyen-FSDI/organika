@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/organika/static/css/main.294bd761.chunk.css",
-    "main.js": "/organika/static/js/main.3d0537a2.chunk.js",
-    "main.js.map": "/organika/static/js/main.3d0537a2.chunk.js.map",
-    "runtime-main.js": "/organika/static/js/runtime-main.79f3ee6d.js",
-    "runtime-main.js.map": "/organika/static/js/runtime-main.79f3ee6d.js.map",
+    "main.css": "/organika/static/css/main.5cc8d0de.chunk.css",
+    "main.js": "/organika/static/js/main.7044df80.chunk.js",
+    "main.js.map": "/organika/static/js/main.7044df80.chunk.js.map",
+    "runtime-main.js": "/organika/static/js/runtime-main.52c523bd.js",
+    "runtime-main.js.map": "/organika/static/js/runtime-main.52c523bd.js.map",
     "static/css/2.5be1633c.chunk.css": "/organika/static/css/2.5be1633c.chunk.css",
-    "static/js/2.9f278586.chunk.js": "/organika/static/js/2.9f278586.chunk.js",
-    "static/js/2.9f278586.chunk.js.map": "/organika/static/js/2.9f278586.chunk.js.map",
-    "static/js/3.90b9de2a.chunk.js": "/organika/static/js/3.90b9de2a.chunk.js",
-    "static/js/3.90b9de2a.chunk.js.map": "/organika/static/js/3.90b9de2a.chunk.js.map",
+    "static/js/2.bbada97a.chunk.js": "/organika/static/js/2.bbada97a.chunk.js",
+    "static/js/2.bbada97a.chunk.js.map": "/organika/static/js/2.bbada97a.chunk.js.map",
+    "static/js/3.c565031c.chunk.js": "/organika/static/js/3.c565031c.chunk.js",
+    "static/js/3.c565031c.chunk.js.map": "/organika/static/js/3.c565031c.chunk.js.map",
     "index.html": "/organika/index.html",
     "static/css/2.5be1633c.chunk.css.map": "/organika/static/css/2.5be1633c.chunk.css.map",
-    "static/css/main.294bd761.chunk.css.map": "/organika/static/css/main.294bd761.chunk.css.map",
-    "static/js/2.9f278586.chunk.js.LICENSE.txt": "/organika/static/js/2.9f278586.chunk.js.LICENSE.txt",
+    "static/css/main.5cc8d0de.chunk.css.map": "/organika/static/css/main.5cc8d0de.chunk.css.map",
+    "static/js/2.bbada97a.chunk.js.LICENSE.txt": "/organika/static/js/2.bbada97a.chunk.js.LICENSE.txt",
     "static/media/font-awesome.min.css": "/organika/static/media/fontawesome-webfont.f691f37e.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.79f3ee6d.js",
+    "static/js/runtime-main.52c523bd.js",
     "static/css/2.5be1633c.chunk.css",
-    "static/js/2.9f278586.chunk.js",
-    "static/css/main.294bd761.chunk.css",
-    "static/js/main.3d0537a2.chunk.js"
+    "static/js/2.bbada97a.chunk.js",
+    "static/css/main.5cc8d0de.chunk.css",
+    "static/js/main.7044df80.chunk.js"
   ]
 }
