@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/organika/static/css/main.5cc8d0de.chunk.css",
-    "main.js": "/organika/static/js/main.4a0367cd.chunk.js",
-    "main.js.map": "/organika/static/js/main.4a0367cd.chunk.js.map",
+    "main.css": "/organika/static/css/main.9d3c0980.chunk.css",
+    "main.js": "/organika/static/js/main.7c97987e.chunk.js",
+    "main.js.map": "/organika/static/js/main.7c97987e.chunk.js.map",
     "runtime-main.js": "/organika/static/js/runtime-main.52c523bd.js",
     "runtime-main.js.map": "/organika/static/js/runtime-main.52c523bd.js.map",
     "static/css/2.5be1633c.chunk.css": "/organika/static/css/2.5be1633c.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.c565031c.chunk.js.map": "/organika/static/js/3.c565031c.chunk.js.map",
     "index.html": "/organika/index.html",
     "static/css/2.5be1633c.chunk.css.map": "/organika/static/css/2.5be1633c.chunk.css.map",
-    "static/css/main.5cc8d0de.chunk.css.map": "/organika/static/css/main.5cc8d0de.chunk.css.map",
+    "static/css/main.9d3c0980.chunk.css.map": "/organika/static/css/main.9d3c0980.chunk.css.map",
     "static/js/2.bbada97a.chunk.js.LICENSE.txt": "/organika/static/js/2.bbada97a.chunk.js.LICENSE.txt",
     "static/media/font-awesome.min.css": "/organika/static/media/fontawesome-webfont.f691f37e.woff"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.52c523bd.js",
     "static/css/2.5be1633c.chunk.css",
     "static/js/2.bbada97a.chunk.js",
-    "static/css/main.5cc8d0de.chunk.css",
-    "static/js/main.4a0367cd.chunk.js"
+    "static/css/main.9d3c0980.chunk.css",
+    "static/js/main.7c97987e.chunk.js"
   ]
 }
