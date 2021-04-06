@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
+import { connect, ReactReduxContext } from 'react-redux';
 import './cart.css';
-
 import CartCheckout from './cartCheckout';
+import Footer from './footer';
+import NavBar from './navBar';
 
 class Cart extends Component {
     state = {
@@ -16,31 +17,38 @@ class Cart extends Component {
         //     console.log(myCart[i].product.image);
         // }
         return (
-            <div className="container">
-                <div className="cart-wrapper">
+                <React.Fragment>
+                        <NavBar cartNav="cart-nav" cartBtn="btn-right"></NavBar>
 
-                    <div className="cart-details">
-                        {myCart.map(
-                            p => <CartCheckout key={p.product.id} item={p}></CartCheckout>
-                        )}
+                <div className="container-fluid">
+                    <div className="cart-wrapper">
+
+                        <div className="cart-details">
+                            {myCart.map(
+                                p => <CartCheckout key={p.product.id} item={p}></CartCheckout>
+                            )}
+                            {this.props.cart.length < 4 ? <Footer cName="footer-cr-cart"></Footer> : <Footer cName="footer-cr-cart-flex"></Footer>}
+                        </div>
+                        {this.props.cart.length > 0 ?
+                            <div className="cart-summary">
+                                <p className="cart-order-summary">order summary</p>
+                                <p className="cart-order-summary-text">item total before tax: <span className="cart-order-summary-text-price">${this.subTotal()}</span></p>
+                                <p className="cart-order-summary-text">tax ({this.state.tax * 100}%): <span className="cart-order-summary-text-price">${this.tax(this.subTotal())}</span></p>
+                                <hr className="cart-order-hr"></hr>
+                                <p className="cart-order-summary-total">order total: <span className="cart-order-summary-total-price">${this.orderTotal()}</span></p>
+                                <button className="btn btn-primary" onClick={this.orderNow}>Order Now</button>
+                            </div>
+                            : <p className="cart-empty">Cart is Empty</p>}
                     </div>
-                    {this.props.cart.length>0 ? 
-                    <div className="cart-summary">
-                        <p className="cart-order-summary">order summary</p>
-                        <p className="cart-order-summary-text">item total before tax: <span className="cart-order-summary-text-price">${this.subTotal()}</span></p>
-                        <p className="cart-order-summary-text">tax ({this.state.tax * 100}%): <span className="cart-order-summary-text-price">${this.tax(this.subTotal())}</span></p>
-                        <hr className="cart-order-hr"></hr>
-                        <p className="cart-order-summary-total">order total: <span className="cart-order-summary-total-price">${this.orderTotal()}</span></p>
-                    </div>
-                : <p className="cart-empty">Cart is Empty</p>}
                 </div>
-
-
-                
-            </div>
+                </React.Fragment>
         );
     }
 
+
+    orderNow = () => {
+        alert("You have placed your order");
+    }
 
     subTotal = () => {
         var subtotal = 0;

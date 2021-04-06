@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Footer from './footer';
 import './about.css';
+import NavBar from './navBar';
 
 class About extends Component {
     state = {
@@ -9,6 +10,7 @@ class About extends Component {
     render() {
         return (
             <div>
+                <NavBar cartBtn="btn-right"></NavBar>
                 <div className="jumbotron">
                     {this.getNameInfo()}
                     {this.getDetailInfo()}
@@ -71,8 +73,8 @@ class About extends Component {
         if (this.state.infoVisible) {
             return (
                 <div className="about-profile">
-                    {/* <img src="/images/profile picture.jpg" alt="profile.jpg"></img> */}
-                    <img src="https://TomNguyen-FSDI.github.io/organika/images/profile picture.jpg" alt="profile.jpg"></img>
+                    <img src="/images/profile picture.jpg" alt="profile.jpg"></img>
+                    {/* <img src="https://TomNguyen-FSDI.github.io/organika/images/profile picture.jpg" alt="profile.jpg"></img> */}
                     <p className="">Email: Tommie_89@yahoo.com</p>
                     <p>Phone: (123) 456-7890</p>
                 </div>
